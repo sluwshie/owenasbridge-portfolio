@@ -1,38 +1,44 @@
+/* Base styles for the entire page */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f2f2f2;
-  color: #333;
+    font-family: Arial, sans-serif; /* Typeface */
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2; /* Light gray page background */
+    color: #333; /* Dark text color */
 }
 
+/* Common look for the header and footer bars */
 header, footer {
-  background: #004080;
-  color: white;
-  padding: 1rem;
-  text-align: center;
+    background: #004080; /* Dark blue background */
+    color: white; /* White text */
+    padding: 1rem;
+    text-align: center;
 }
 
+/* Style the navigation bar */
 nav {
-  background: #e0e0e0;
-  text-align: center;
-  padding: 1rem;
+    background: #e0e0e0; /* Light gray background */
+    text-align: center;
+    padding: 1rem;
 }
 
-nav a {
-  margin: 0 15px;
-  color: #004080;
-  text-decoration: none;
-  font-weight: bold;
-}
+    /* Appearance of links in the navigation bar */
+    nav a {
+        margin: 0 15px;
+        color: #004080;
+        text-decoration: none;
+        font-weight: bold;
+    }
 
+/* General layout for the different sections */
 section {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto; /* Center the section horizontally */
 }
 
+/* Heading style within each section */
 h2 {
-  border-bottom: 2px solid #004080;
-  padding-bottom: 0.5rem;
+    border-bottom: 2px solid #004080; /* Add a blue line under headings */
+    padding-bottom: 0.5rem;
 }
